@@ -1,3 +1,5 @@
+mod arith;
+
 fn main() {
-    println!("Hello, world!");
+    println!("{}", arith::gcd(11,7));
 }
