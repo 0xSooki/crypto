@@ -1,5 +1,5 @@
-mod arith;
+mod des;
 
 fn main() {
-    println!("{}", arith::gcd(11,7));
 }
+
